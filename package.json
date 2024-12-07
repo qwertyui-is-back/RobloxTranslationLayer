@@ -1,0 +1,18 @@
+{
+  "name": "roblox-bedwars-to-mc",
+  "version": "1.0.0",
+  "description": "A middle man to translate Roblox Bedwars into Minecraft 1.8.9.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "7GrandDad",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "minecraft-protocol": "^1.50.0",
+    "prismarine-chunk": "^1.36.0",
+    "prismarine-provider-anvil": "^2.7.0",
+    "ws": "^8.18.0"
+  }
+}
